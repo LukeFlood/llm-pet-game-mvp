@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: tighten up base font-size */
+@layer base {
+  html { font-size: 14px; }
+  body { line-height: 1.5; }
+}
